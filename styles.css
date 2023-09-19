@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: solid  blue 1px;
-  background-color: aliceblue;
+  /* border: solid  blue 1px; */
+
 }
 .container {
+
   max-width: 600px; 
   margin: 0 auto; 
+  background-color: rgb(242, 242, 242);
+  border: solid rgb(191, 191, 191) 1px;
 }
 .header {
   display: flex;
@@ -57,7 +60,8 @@
 
 i.fa-solid.fa-ellipsis-vertical{
 
-  font-size: 50px;;
+  font-size: 30px;
+  margin-right: 7px;
 } 
 i.fa-brands.fa-html5{
 
@@ -89,4 +93,12 @@ i.fa-brands.fa-html5{
   align-items: center;
 
 }
+h1{
 
+font-size: 120%;
+
+}
+.supercontainer{
+margin-top: 50px;
+
+}
